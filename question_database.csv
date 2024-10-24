@@ -1,0 +1,74 @@
+Question,Category,Times Asked
+How do I persuade people at my company to act on the risk assessment?,Risk,0
+Why do the lecture notes talk about Treat and Terminate as responses to risk when the reading talks about a different four options?,Risk,0
+"It seems like being risk averse might cause little problems, but being risk averse might cause big problems: so isn't it best to be a little risk averse?",Risk,0
+Some Risk Assessments multiply likelihood and impact but some add them: which one is correct?,Risk,0
+How do you control risk culture at a company?,Risk,0
+Why do the slides say that giving risk a number isn't objective when the reading says it is?,Risk,0
+"If humans are so terrible at risk, then should we bother with the risk assessment at all?",Risk,0
+How can I get different areas of the company to agree on how impact should be judged?,Risk,0
+What are the big things that can go wrong with a risk assessment process?,Risk,0
+Why don't we start from a list of exploits when doing cyber risk assessment?,Risk,0
+Do all companies have to have ISO 27001 certification?,Standards,0
+"If some of the ISO standards are law, then why do people have to pay for them?",Standards,0
+Why is all the wording in ISO27001 so old?,Standards,0
+How do companies work out how much budget to spend dealing with risks?,Risk,0
+Can you talk a little bit more about a Statement of Applicability?,Standards,0
+How can we keep all the records we need for accountability while still being okay with GDPR?,Standards,0
+How can you evaluate the effectiveness of the ISMS if there haven't been any breaches?,Risk,0
+Have you caused a data breach?,Risk,0
+What do you do when something happens that wasn't in the risk assessment?,Risk,0
+Do you have to risk assess everything?,Risk,0
+How do startups do risk assessment when they are scaling so quickly?,Risk,0
+You say that there are lots of possible risks but ISO 27002 says there are only 34 possible controls?,Standards,0
+You showed us an email that wasn't spam: how do you check in practice?,Risk,0
+Can we have more guest speakers?,Introduction,0
+Are things like ISO27000 less relevant if we are using some big cloud provider like Microsoft or Google for everything?,Standards,0
+Are we going to talk about public relations for when there's a breach or just the technical side?,Risk,0
+Is Penetration Testing part of Risk Assessment?,Risk,0
+Can I use an AI to write a risk assessment?,Risk,0
+Can you explain how goals like authentication fit with the CIA triangle?,Risk,0
+"All the attackers you taught seem like they do really impactful things on the risk assessments, are there any low-impact attackers?",Risk,0
+You taught that one of the attackers was `cyber criminals' but aren't all the attackers some kind of cyber criminal?,Risk,0
+What sort of controls am I meant to put in for a Nation State attack?,Risk,0
+You said privacy wasn't a proper security goal so do we ignore it in a risk assessment?,Risk,0
+How do you risk assess something like a pandemic?,Risk,0
+Are there disadvantages to doing a Risk-based assessment of a company?,Risk,0
+Are things like a hostile takeover a risk?,Risk,0
+Do you include phones belonging to staff in a risk assessment?,Risk,0
+"Why a company gets attacked, how can they tell what sort of attacker it is?",Risk,0
+If your control for one risk is `make backups' do you then need another risk for `backups get leaked'?,Risk,0
+How do you get people not to click on phishing links?,Risk,0
+If you have to pay to be given an ISO 27000 certificate then why would anyone ever get failed?,Standards,0
+Should risk assessments be done in-house or outsourced to specialists?,Risk,0
+How much do you trust your staff when they tell you about risks?,Risk,0
+Are there any risks that you can just always put on the list?,Risk,0
+Is a risk assessment confidential?,Risk,0
+How big does a risk assessment get?,Risk,0
+Do you sometimes write one risk assessment for an auditor and another for `real'?,Risk,0
+(after 2pm) can we have our break now?,Introduction,0
+Can we see a Royal Holloway Risk assessment?,Introduction,0
+What's a Risk Register?,Risk,0
+How small can risks be on the risk assessment?,Risk,0
+Aren't people incentivized to rate all risks as `low' because then they do less work?,Risk,0
+Can producing a risk assessment at a company get you into trouble?,Risk,0
+What happens if you make a risk assessment for a company but the CEO hasn't told you their secret plans?,Risk,0
+Do you need to know if your staff have criminal records for a risk assessment and is that a GDPR issue?,Risk,0
+I hear that when you rate a risk as `high' in a company you get yelled at?,Risk,0
+I've read that ISO27001 requires you to have internal audits - can you tell us more?,Standards,0
+How can you monitor ISO27001 stuff if everybody is home working?,Standards,0
+Is ISO27001 certification permanent or just for a little while?,Standards,0
+Can you talk more about why some companies have NIST certification rather than ISO27001?,Standards,0
+Are a company's cyber security assets and accounting assets the same thing?,Risk,0
+Who in a company can say `ignore that rule'?,Risk,0
+If you follow GDPR are you automatically following ISO27001 or vice versa?,Standards,0
+Is penetration testing required for ISO 27001?,Standards,0
+Can only part of a company (a department or something) get certified to a standard?,Standards,0
+How can you find out if another company is ISO 27001 certified?,Standards,0
+Why do cyber security people have to work in the office?,Risk,0
+How much of a security professional's time ends up being spent on risks and standards?,Risk,0
+"When it's a high level risk assessment, would you do the impact on the share price rather than overall cost?",Risk,0
+"For things like death and data breaches, surely the only acceptable risk is zero?",Risk,0
+Can you run a risk assessment backwards to attack a company?,Risk,0
+Don't most companies have to worry about the same set of risks?,Risk,0
+Are insider attacks less detectable than outside ones?,Risk,0
