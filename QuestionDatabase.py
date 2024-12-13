@@ -5,24 +5,41 @@ class QuestionDatabase:
     def __init__(self, csv_file):
         """Initialize the class with the CSV data."""
         self.df = pd.read_csv(csv_file)
-    
-    def get_random_questions(self, n, category=None):
+
+    def get_random_questions(self, n, categories=None):
         """
-        Returns a randomized list of n questions. Optionally filters by category.
+        Returns a randomized list of n questions. Optionally filters by multiple categories.
         
         Parameters:
         - n (int): Number of questions to return.
-        - category (str): Filter by category (Introduction, Standards, Risk).
+        - categories (list of str): Filter by categories (e.g., ['Introduction', 'Standards', 'Risk']).
         
         Returns:
         - list: List of randomized questions.
+        
+        Raises:
+        - ValueError: If any of the categories are NOT found in the dataset.
         """
-        if category:
-            filtered_df = self.df[self.df["Category"] == category]
+        if categories:
+            # Get the unique categories in the DataFrame
+            available_categories = set(self.df["Category"].unique())
+            
+            # Find categories that are NOT in the available categories
+            invalid_categories = [cat for cat in categories if cat not in available_categories]
+            
+            if invalid_categories:
+                raise ValueError(f"Invalid categories: {invalid_categories}. Available categories are: {sorted(available_categories)}")
+            
+            # Filter by the specified categories
+            filtered_df = self.df[self.df["Category"].isin(categories)]
         else:
             filtered_df = self.df
-        
+
         return filtered_df.sample(n=min(n, len(filtered_df))).to_dict('records')
+
+
+    
+
     
     def create_latex_itemize(self, questions):
         """

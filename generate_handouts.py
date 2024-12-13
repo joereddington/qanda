@@ -23,7 +23,7 @@ def create_latex_file(qd, num_iterations, output_file, snippets_dir="snippets"):
                 latex_file.write(intro_file.read() + "\n")
                 latex_file.write("%Intro written\n")
             # Get 11 random questions from the Question Database
-            random_questions = qd.get_random_questions(11)
+            random_questions = qd.get_random_questions(11,['Bonus','Incident Management','Legal and Ethical Aspects','Staff Management'])
             question_list = [q["Question"] for q in random_questions]
             latex_itemized_questions = qd.create_latex_itemize(question_list)
             
@@ -47,7 +47,7 @@ if __name__ == "__main__":
     qd = QuestionDatabase("question_database.csv")
 
     # Number of intro iterations
-    num_iterations = 10
+    num_iterations = 30
 
     # Output LaTeX file
     output_file = "generated_latex_document.tex"
