@@ -1,0 +1,39 @@
+# Ignore all files except .tex, .bib, and .pdf files, Python scripts, and the CSV file
+
+# Ignore auxiliary LaTeX files
+*.aux
+*.log
+*.bbl
+*.blg
+*.toc
+*.out
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore temporary and backup files
+*~
+*.swp
+*.bak
+*.tmp
+
+# Keep only these file types:
+!.tex
+!.bib
+!.pdf
+!.py
+!.csv
+
+# Keep the Makefile
+!Makefile
+
+# Keep everything in the snippets directory
+!snippets/
+
